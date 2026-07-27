@@ -86,8 +86,8 @@ export default function FloatingDock() {
             className={`
               transition-all
               duration-300
-              text-2xl
-              sm:text-2xl
+              text-3xl
+              sm:text-3xl
               lg:text-3xl
               focus:brightness-200
               
@@ -121,14 +121,14 @@ export default function FloatingDock() {
       duration-300
       ${
         theme === "light"
-          ? "hover:bg-gray-200 text-yellow-500"
-          : "hover:bg-gray-700 text-gray-300"
+          ? "hover:bg-gray-200/30 text-blue-300"
+          : "hover:bg-gray-700 text-yellow-300"
       }`}
     >
       {theme === "light" ? (
-        <LuSun className="text-xl sm:text-2xl lg:text-3xl" />
-      ) : (
         <LuMoon className="text-xl sm:text-2xl lg:text-3xl" />
+      ) : (
+        <LuSun className="text-xl sm:text-2xl lg:text-3xl" />
       )}
     </button>
   </div>

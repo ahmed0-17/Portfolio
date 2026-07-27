@@ -14,7 +14,7 @@ function Home() {
 
   return (
     <section
-      className={`h-svh overflow-hidden flex items-center ${
+      className={`h-screen overflow-hidden flex items-center ${
         theme === "dark" ? "text-white" : "text-black"
       }`}
     >
@@ -92,16 +92,17 @@ function Home() {
 
           {/* Right Image */}
 
-         <div className="hidden lg:flex lg:w-1/2 ">
+         <div className="hidden mb-0 lg:flex lg:w-1/2 ">
   <img
     src={`${theme==="light"?profile_black:profile}`}
     alt="Ahmed Ali Malik"
     className="
-      w-75
-      xl:w-120
-      2xl:w-130
-      h-auto
-      object-contain
+       w-80
+    sm:w-96
+    md:w-[450px]
+    lg:w-[520px]
+    xl:w-[580px]
+    object-contain
     "
   />
 </div>
