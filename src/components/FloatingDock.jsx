@@ -126,9 +126,9 @@ export default function FloatingDock() {
       }`}
     >
       {theme === "light" ? (
-        <LuMoon className="text-xl sm:text-2xl lg:text-3xl" />
+        <LuMoon className="text-3xl sm:text-3xl lg:text-3xl" />
       ) : (
-        <LuSun className="text-xl sm:text-2xl lg:text-3xl" />
+        <LuSun className="text-3xl sm:text-3xl lg:text-3xl" />
       )}
     </button>
   </div>
