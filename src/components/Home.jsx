@@ -32,8 +32,8 @@ function Home() {
 
             <h1
   className={`
-    heading-font  mt-2 font-bold leading-tight
-    text-4xl sm:text-5xl md:text-6xl lg:text-7xl
+    heading-font  mt-2 font-extrabold leading-tight
+    text-5xl sm:text-6xl md:text-6xl lg:text-7xl
     bg-[length:300%_300%]
     animate-gradient duration-75
     ${

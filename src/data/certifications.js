@@ -23,7 +23,7 @@ export const Certifications = [
     issuer: "Cisco Networking Academy",
     issueDate: "2025-09-22",
     expirationDate: "-",
-    verificationLink: "public/certifications/Python_Essentials_1_certificate_malikalihyd123-gmail-com_ff24ba49-3c20-4f13-83fa-daee8e79a6c9.pdf",
+    verificationLink: "../certifications/Python_Essentials_1_certificate_malikalihyd123-gmail-com_ff24ba49-3c20-4f13-83fa-daee8e79a6c9.pdf",
   },
    {
     id: 3,
@@ -33,7 +33,7 @@ export const Certifications = [
     issuer: "Cisco Networking Academy",
     issueDate: "2025-08-24",
     expirationDate: "-",
-    verificationLink: "public/certifications/Introduction_to_Cybersecurity_certificate_malikalihyd123-gmail-com_6a0d3642-6ab7-41cc-8a97-9c0837ab49a8.pdf",
+    verificationLink: "../certifications/Introduction_to_Cybersecurity_certificate_malikalihyd123-gmail-com_6a0d3642-6ab7-41cc-8a97-9c0837ab49a8.pdf",
   },
    {
     id: 4,
@@ -43,7 +43,7 @@ export const Certifications = [
     issuer: "Coursera",
     issueDate: "2025-09-07",
     expirationDate: "-",
-    verificationLink: "public/certifications/Coursera GR9561XH28QZ.pdf",
+    verificationLink: "../certifications/Coursera GR9561XH28QZ.pdf",
   },
   {
     id: 5,
@@ -53,6 +53,6 @@ export const Certifications = [
     issuer: "Cousera",
     issueDate: "2025-08-05",
     expirationDate: "-",
-    verificationLink: "public/certifications/GOOGLE PROMPTING ESSENTIALS.pdf ",
+    verificationLink: "../certifications/GOOGLE PROMPTING ESSENTIALS.pdf ",
   },
 ]
