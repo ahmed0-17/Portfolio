@@ -74,7 +74,7 @@ export default function FloatingDock() {
           active:brightness-200
           ${
             isActive
-              ? "bg-gray-600/40 text-white shadow-lg brightness-100"
+              ? "bg-blue-400 text-white shadow-lg brightness-100"
               : theme === "light"
               ? "hover:bg-gray-200 text-gray-700"
               : "hover:bg-gray-700 text-gray-300"
@@ -121,7 +121,7 @@ export default function FloatingDock() {
       duration-300
       ${
         theme === "light"
-          ? "hover:bg-gray-200/30 text-blue-300"
+          ? "hover:bg-gray-200/30 text-blue-400"
           : "hover:bg-gray-700 text-yellow-300"
       }`}
     >

@@ -49,23 +49,36 @@ body{
   animation: gradient 5s ease infinite;
 }
 
-
 @keyframes float {
   0% {
-    transform: translateY(0px);
+    transform: translate(0, 0);
   }
-
   50% {
-    transform: translateY(-18px);
+    transform: translate(40px, -40px);
   }
-
   100% {
-    transform: translateY(0px);
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-40px, 40px);
+  }
+  100% {
+    transform: translate(0, 0);
   }
 }
 
 .animate-float {
-  animation: float 6s ease-in-out infinite;
+  animation: float 10s ease-in-out infinite;
+}
+
+.animate-float2 {
+  animation: float2 14s ease-in-out infinite;
 }
 
 html,

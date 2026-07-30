@@ -1,6 +1,6 @@
 import Currency from "../assets/images/currency.png";
 import Todo from "../assets/images/todo.png";
-import task_management from "../assets/images/images.png"
+import task_management from "../assets/images/best-to-do-list-apps.jpg"
 export const projects = [
   {
     id: 1,
