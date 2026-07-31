@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://portfolio-self-eight-76.vercel.app/
+Sitemap: https://ahmedalimalik-76.vercel.app/
