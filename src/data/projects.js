@@ -1,6 +1,6 @@
 import Currency from "../assets/images/currency.png";
 import Todo from "../assets/images/todo.png";
-import task_management from "../assets/images/best-to-do-list-apps.jpg"
+import task_management from "../assets/images/Taskflow.png"
 export const projects = [
   {
     id: 1,
@@ -25,11 +25,11 @@ export const projects = [
   },
     {
     id: 3,
-    title: "Task Management App",
+    title: "Task Flow",
     image: task_management ,
     status:"In progress",
-    description: "Task Management app using Redux toolkit and Local Storage.",
-    tech: ["React", "Context API", "Tailwind"],
+    description: "Task Management app using Redux toolkit ,Tailwind CSS and Shadcn UI.",
+    tech: ["React", "Redux Toolkit", "Tailwind", "Shadcn UI" ,"Recharts","React Router"],
     github: "https://github.com/username/project",
     live: "https://project.vercel.app",
   },
