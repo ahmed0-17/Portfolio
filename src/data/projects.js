@@ -27,11 +27,11 @@ export const projects = [
     id: 3,
     title: "Task Flow",
     image: task_management ,
-    status:"In progress",
+    status:"Live",
     description: "Task Management app using Redux toolkit ,Tailwind CSS and Shadcn UI.",
     tech: ["React", "Redux Toolkit", "Tailwind", "Shadcn UI" ,"Recharts","React Router"],
-    github: "https://github.com/username/project",
-    live: "https://project.vercel.app",
+    github: "https://github.com/ahmed0-17/TaskFlow",
+    live: "https://task-flow-gilt-psi.vercel.app/",
   },
  
 ];
