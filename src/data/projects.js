@@ -25,7 +25,7 @@ export const projects = [
   },
     {
     id: 3,
-    title: "Task Flow",
+    title: "TaskFlow",
     image: task_management ,
     status:"Live",
     description: "Task Management app using Redux toolkit ,Tailwind CSS and Shadcn UI.",
