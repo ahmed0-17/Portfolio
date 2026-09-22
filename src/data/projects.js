@@ -4,6 +4,16 @@ import task_management from "../assets/images/Taskflow.png"
 export const projects = [
   {
     id: 1,
+    title: "TaskFlow",
+    image: task_management ,
+    status:"Live",
+    description: "Task Management app using Redux toolkit ,Tailwind CSS and Shadcn UI.",
+    tech: ["React", "Redux Toolkit", "Tailwind", "Shadcn UI" ,"Recharts","React Router"],
+    github: "https://github.com/ahmed0-17/TaskFlow",
+    live: "https://task-flow-gilt-psi.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Currency Converter",
     image: Currency,
     status:"Live",
@@ -14,7 +24,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Todo App",
     image: Todo,
     status:"Live",
@@ -23,15 +33,5 @@ export const projects = [
     github: "https://github.com/ahmed0-17/Todo-App",
     live: "https://todoapp-fawn-phi.vercel.app/",
   },
-    {
-    id: 3,
-    title: "TaskFlow",
-    image: task_management ,
-    status:"Live",
-    description: "Task Management app using Redux toolkit ,Tailwind CSS and Shadcn UI.",
-    tech: ["React", "Redux Toolkit", "Tailwind", "Shadcn UI" ,"Recharts","React Router"],
-    github: "https://github.com/ahmed0-17/TaskFlow",
-    live: "https://task-flow-gilt-psi.vercel.app/",
-  },
- 
+  
 ];

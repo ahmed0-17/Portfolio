@@ -11,7 +11,7 @@ function About() {
         theme === "dark" ? "text-white" : "text-black"
       }`}
     >
-       <section className=" mb-15 flex  items-center px-5 sm:px-8 md:px-12 lg:px-16 py-12 sm:py-16">
+       <section className=" mb-5 flex  items-center px-5 sm:px-8 md:px-12 lg:px-16 py-12 sm:py-16">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
 
           {/* Image */}
