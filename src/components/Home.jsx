@@ -180,30 +180,31 @@ function Home() {
 
         {/* Right Image */}
         <div
-          className="
-            hidden
-            xl:flex
-            xl:w-1/2
-            2xl:w-[48%]
-            justify-center
-            items-end
-            w-full
-          "
-        >
-          <img
-            src={theme === "light" ? profile_black : profile_black}
-            alt="Ahmed Ali Malik"
-            className="
-              w-full
-              max-w-[650px]
-              2xl:max-w-[750px]
-              3xl:max-w-[850px]
-              max-h-[100vh]
-              object-contain
-              object-bottom
-            "
-          />
-        </div>
+  className="
+    hidden
+    xl:flex
+    xl:w-[55%]
+    2xl:w-[55%]
+    justify-center
+    items-end
+    w-full
+  "
+>
+  <img
+    src={theme === "light" ? profile_black : profile}
+    alt="Ahmed Ali Malik"
+    className="
+      w-full
+      max-w-[750px]
+      2xl:max-w-[900px]
+      3xl:max-w-[1000px]
+      max-h-[100vh]
+      object-contain
+      object-bottom
+    "
+  />
+</div>
+    
       </div>
     </section>
   );
