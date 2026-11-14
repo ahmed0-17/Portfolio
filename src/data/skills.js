@@ -1,11 +1,11 @@
 
 import {
   FaReact,
-  FaNodeJs,
   FaHtml5,
   FaBootstrap,
   FaDatabase,
   FaGithub,
+  FaPython,
 } from "react-icons/fa";
 
 import {
@@ -14,7 +14,12 @@ import {
   SiTailwindcss,
   SiPhp,
   SiVite,
+  SiFastapi,
+  SiPostgresql,
+  SiPydantic,
+  SiVercel
 } from "react-icons/si";
+import { TbDatabaseImport } from "react-icons/tb"; // For Alembic
 import { VscVscode } from "react-icons/vsc";
 
 
@@ -45,17 +50,30 @@ export const skills = [
     icon: FaBootstrap,
   },
   {
-    name: "Node.js",
-    icon: FaNodeJs,
+    name:"Python",
+    icon: FaPython,
   },
   {
-    name: "MongoDB",
-    icon: SiMongodb,
+    name: "FAST API",
+    icon: SiFastapi,
+  },
+   {
+    name: "Pydantic",
+    icon: SiPydantic,
+  },
+  {
+    name: "Alembic ",
+    icon: TbDatabaseImport,
+  },
+  {
+    name: "PostgreSql",
+    icon: SiPostgresql,
   },
   {
     name: "MySQL",
     icon: FaDatabase,
   },
+
   {
     name: "PHP",
     icon: SiPhp,
@@ -63,6 +81,10 @@ export const skills = [
   {
     name: "GitHub",
     icon: FaGithub,
+  },
+  {
+    name: "Vercel",
+    icon: SiVercel,
   },
   {
     name: "Visual Studio Code",

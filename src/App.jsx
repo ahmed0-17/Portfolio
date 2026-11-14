@@ -1,5 +1,6 @@
 import Background from "./components/Background";
 import FloatingDock from "./components/FloatingDock";
+import { Analytics } from "@vercel/analytics/next"
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
         {/* Projects */}
         {/* Contact */}
       </main>
+      <Analytics />
     </>
   );
 }

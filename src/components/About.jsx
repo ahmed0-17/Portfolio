@@ -111,7 +111,7 @@ function About() {
                 }
   `}
             >
-              I'm <strong>Ahmed Ali Malik</strong>, a 3rd-year{" "}
+              I'm <strong>Ahmed Ali Malik</strong>, a final-year{" "}
               <strong>Software Engineering</strong> student and{" "}
               <strong>Full-Stack Developer</strong> passionate about building
               modern, responsive, and user-friendly web applications.
